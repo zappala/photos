@@ -1,0 +1,127 @@
+/* Color Scheme */
+
+/* 
+
+https://color.adobe.com/dc6a9cd68e98073387aee48ef6bcbc9d--dark-purple-color-scheme-jewel-tone-color-scheme-color-theme-10408143/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20dc6a9cd68e98073387aee48ef6bcbc9d--dark-purple-color-scheme-jewel-tone-color-scheme&mode=rgb&rgbvalues=0.3568627450980392,0.043137254901960784,0.2980392156862745,0.2823529411764706,0.13333333333333333,0.3333333333333333,0.1843137254901961,0.23529411764705882,0.3686274509803922,0.10196078431372549,0.3333333333333333,0.403921568627451,0,0.44313725490196076,0.4392156862745098&swatchOrder=0,1,2,3,4
+
+*/
+
+/* Font */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 10px 50px 50px 50px;
+}
+
+/* Title */
+
+h1.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    float: left;
+    width: 40px;
+    background-color: #5B0B4C;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.logo i {
+    color: white;
+}
+
+/* Menu */
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-size: 1.2em;
+    color: #000;
+    color: #007170;
+    display: block;
+    text-align: center;
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+}
+
+nav .active {
+}
+
+/* Grid */
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 1
+}
+
+article {
+    flex: 4
+}
+
+/* General */
+
+h2 {
+}
+
+/* Image Grid */
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.pano {
+    display: grid;
+    grid-template: auto auto / 1fr;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}
+
+
+/* Reviews */
+
+.review {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.separator {
+    text-align: center;
+    color: #5B0B4C;
+}
+
+q {
+    font-style: italic;
+}
+
+.author::before {
+    content: "\2014  ";
+}
